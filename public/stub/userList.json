@@ -1,0 +1,30 @@
+{
+    "userList": [
+        {
+            "userID": "USN001000000000000001",
+            "checkStatus": "Y",
+            "userName": "本部太郎",
+            "idSts": "有効",
+            "userGrName": "Admin,ネットワーク運用",
+            "availavleTenant": "本部,総務",
+            "lastLoginDate": "2018/9/13 22:37:56",
+            "lockLimit": "2019/9/13",
+            "passLimit": "2018/9/5",
+            "registDate": "2018/9/1",
+            "memo": "2018年11月09日　作成"
+        },
+        {
+            "userID": "USN001000000000000002",
+            "checkStatus": "N",
+            "userName": "総務次郎",
+            "idSts": "無効",
+            "userGrName": "設備管理",
+            "availavleTenant": "総務",
+            "lastLoginDate": "2018/9/13 22:31:56",
+            "lockLimit": "",
+            "passLimit": "2018/9/1",
+            "registDate": "2018/9/1",
+            "memo": "2018年11月09日　作成"
+        }
+    ]
+}

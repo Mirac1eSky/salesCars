@@ -1,0 +1,31 @@
+
+{
+	"0":{
+	"brand":"RR",
+	"model":"幻影",
+	"img":"../image/rr.jpg",
+	"lead":"幻影？？？？？？"
+	},
+	"1":{
+	"brand":"BV",
+	"model":"布加迪",
+	"img":"../image/rr.jpg",
+	"lead":"布加迪"
+	},
+
+	"2":{
+	"brand":"BMW",
+	"model":"x-1",
+	"img":"../image/rr.jpg",
+	"lead":"這是一輛寶馬x-1，請別摸我"
+	},
+	"3":{
+	"brand":"RR",
+	"model":"幻影",
+	"img":"../image/rr.jpg",
+	"lead":"好吧好啊吧"
+	}
+	
+
+
+}

@@ -1,0 +1,191 @@
+{
+    "scenarioId": "CS10vc0020s003",
+    "result": "OK",
+    "aplMsgId": "",
+    "parameterList": [
+        {
+            "parameterInfo1": [
+                {
+                    "parameterName1": "CS10vc0020s003",
+                    "parameterList1": [
+                        {
+                            "key": "screenGrName",
+                            "value": "インフラ管理"
+                        }
+                    ],
+                    "parameterInfo2": [
+                        {
+                            "parameterName2": "CS10vc0020s003",
+                            "parameterList2": [
+                                {
+                                    "key": "screenId",
+                                    "value": "CSzone"
+                                },
+                                {
+                                    "key": "screenDspName",
+                                    "value": "リージョン管理"
+                                },
+                                {
+                                    "key": "opeTypeKind",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "parameterName2": "CS10vc0020s003",
+                            "parameterList2": [
+                                {
+                                    "key": "screenId",
+                                    "value": "CSzone"
+                                },
+                                {
+                                    "key": "screenDspName",
+                                    "value": "ゾーン管理"
+                                },
+                                {
+                                    "key": "opeTypeKind",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "parameterName2": "CS10vc0020s003",
+                            "parameterList2": [
+                                {
+                                    "key": "screenId",
+                                    "value": "CSserver"
+                                },
+                                {
+                                    "key": "screenDspName",
+                                    "value": "サーバ管理"
+                                },
+                                {
+                                    "key": "opeTypeKind",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "parameterName1": "CS10vc0020s003",
+                    "parameterList1": [
+                        {
+                            "key": "screenGrName",
+                            "value": "サービス管理"
+                        }
+                    ],
+                    "parameterInfo2": [
+                        {
+                            "parameterName2": "CS10vc0020s003",
+                            "parameterList2": [
+                                {
+                                    "key": "screenId",
+                                    "value": "CSzone"
+                                },
+                                {
+                                    "key": "screenDspName",
+                                    "value": "イメージ管理"
+                                },
+                                {
+                                    "key": "opeTypeKind",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "parameterName2": "CS10vc0020s003",
+                            "parameterList2": [
+                                {
+                                    "key": "screenId",
+                                    "value": "CSservm"
+                                },
+                                {
+                                    "key": "screenDspName",
+                                    "value": "VM管理"
+                                },
+                                {
+                                    "key": "opeTypeKind",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "parameterName1": "CS10vc0020s003",
+                    "parameterList1": [
+                        {
+                            "key": "screenGrName",
+                            "value": "ユーザ管理"
+                        }
+                    ],
+                    "parameterInfo2": [
+                        {
+                            "parameterName2": "CS10vc0020s003",
+                            "parameterList2": [
+                                {
+                                    "key": "screenId",
+                                    "value": "CS10vc0050"
+                                },
+                                {
+                                    "key": "screenDspName",
+                                    "value": "ユーザー管理"
+                                },
+                                {
+                                    "key": "opeTypeKind",
+                                    "value": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "parameterName2": "CS10vc0020s003",
+                            "parameterList2": [
+                                {
+                                    "key": "screenId",
+                                    "value": "CS10vc0070"
+                                },
+                                {
+                                    "key": "screenDspName",
+                                    "value": "運用グループ管理"
+                                },
+                                {
+                                    "key": "opeTypeKind",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "parameterName1": "CS10vc0020s003",
+                    "parameterList1": [
+                        {
+                            "key": "screenGrName",
+                            "value": "テナント管理"
+                        }
+                    ],
+                    "parameterInfo2": [
+                        {
+                            "parameterName2": "CS10vc0020s003",
+                            "parameterList2": [
+                                {
+                                    "key": "screenId",
+                                    "value": "CSzone"
+                                },
+                                {
+                                    "key": "screenDspName",
+                                    "value": "テナント管理"
+                                },
+                                {
+                                    "key": "opeTypeKind",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
