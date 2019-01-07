@@ -194,9 +194,11 @@ export default {
     },
 
     setPage(cars){
+        //重新初始化变量
         this.currentPage = 1;
         this.totalPage = [];
         this.dataShow = "";
+        this.pageSize = 3;
         console.info(this.pageSize)
         // 根据后台数据的条数和每页显示数量算出一共几页
         this.pageNum = Math.ceil(cars.length / this.pageSize);
