@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>大牛二手车&#8545;</title>
+</head>
+<body>
+	<div class="hello">
+    <h1>{{ msg }}</h1>
+    <div style="padding:50px;" id="app">
+        <div class="panel panel-primary">
+            <div class="panel-heading"><h2>車輛信息</h2></div>
+            <div>
+            <ul>
+              <li> <p align="left">請輸入想搜索的品牌</p> </li>
+              <li><input type="search" v-model="btext" name="searchB" placeholder="请输入缩写 如BMW"></li>
+              <li><button class="sebutton" @click='search("brand")'>confirm</button></li>
+            </ul> 
+             <ul>
+              <!--
+              利用watch 监控mtext 实现
+              <li> <p align="left">請輸入想搜索的型号</p> </li>
+              <li><input type="search" v-model="mtext" name="searchM"></li>
+              <li><button hidden="true"  @click="search()">confirm</button></li>
+              -->
+              <li> <p align="left">請輸入想搜索的型号</p> </li>
+              <li><input type="search" v-model="mtext" name="searchM"  placeholder="请输入型号"></li>
+              <li><button class="sebutton"  @click='search("model")'>confirm</button></li>
+            </ul> 
+            </div>
+            <!-- 暂未实装v-if -->
+            <div v-if="flag">
+            <table align="center" border="0"  padding-bottom="30px"
+            class="table table-bordered table-striped text-center" width="1000px" height="530px">
+                <thead>
+                    <tr>  
+                        <th>實圖</th>
+                        <th>品牌</th>
+                        <th>型號</th>
+                        <th>价格(万元)</th>
+                        <th>簡介</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for ="(car,index) in dataShow">
+                      <td width="250px" height="200px"><img width="200px" height="180px" :src="car.img"></td>
+                      <td width="100px" height="60px">{{car.brand}}</td>
+                      <td width="100px" height="60px">{{car.model}}</td>
+                       <td width="100px" height="60px">{{car.price / 10000}}</td>
+                      <td width="200px" height="60px"><a :href="car.href"> {{car.lead}} </a> </td>
+                  
+                    </tr>
+                    <tr>
+                      <td colspan="1" height="50px"><button  v-on:click="prePage()">上一頁</button></td>
+                      <td colspan="2" height="50px"><span>第{{currentPage}}页/共{{pageNum}}页</span></td>
+                       <td colspan="1" height="50px"><span>跳至<input width="50px" type="text" name="psize" v-model="psize" id="PG_CARS_psize"> 页
+                       	<button class="sebutton" id="PG_CARS_jumpButton" @click="jumpPage()">Go</button>
+                       </span></td>
+                      <td colspan="1" height="50px"><button @click="nextPage()">下一頁</button></td>
+                    </tr>
+                </tbody>
+
+            </table>
+            </div>
+            <div v-else>
+                  <p> 暂无对应信息！请重新查询！</p>
+              </div>
+        </div>
+        <!--   <v-table
+             :width="1000"
+             :columns="columns"
+             :table-data="tableData"
+             :show-vertical-border="false"
+    ></v-table> -->
+    </div>
+  </div>
+
+</body>
+</html>
